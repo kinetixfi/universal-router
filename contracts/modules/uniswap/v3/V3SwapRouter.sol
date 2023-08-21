@@ -3,9 +3,9 @@ pragma solidity ^0.8.17;
 
 import {V3Path} from './V3Path.sol';
 import {BytesLib} from './BytesLib.sol';
-import {SafeCast} from '@uniswap/v3-core/contracts/libraries/SafeCast.sol';
-import {IUniswapV3Pool} from '@uniswap/v3-core/contracts/interfaces/IUniswapV3Pool.sol';
-import {IUniswapV3SwapCallback} from '@uniswap/v3-core/contracts/interfaces/callback/IUniswapV3SwapCallback.sol';
+import {SafeCast} from '@kinetix/v3-core/contracts/libraries/SafeCast.sol';
+import {IUniswapV3Pool} from '@kinetix/v3-core/contracts/interfaces/IUniswapV3Pool.sol';
+import {IUniswapV3SwapCallback} from '@kinetix/v3-core/contracts/interfaces/callback/IUniswapV3SwapCallback.sol';
 import {Constants} from '../../../libraries/Constants.sol';
 import {RouterImmutables} from '../../../base/RouterImmutables.sol';
 import {Permit2Payments} from '../../Permit2Payments.sol';

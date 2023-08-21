@@ -5,7 +5,7 @@
   "publishConfig": {
     "access": "public"
   },
-  "version": "1.0.0",
+  "version": "1.0.1",
   "keywords": [
     "kinetix",
     "router",
@@ -33,11 +33,11 @@
   "dependencies": {
     "@kinetix/router-sdk": "^1.0.0",
     "@kinetix/sdk-core": "^1.0.0",
+    "@kinetix/v2-core": "1.0.1",
     "@kinetix/v2-sdk": "^1.0.0",
     "@kinetix/v3-core": "1.0.0",
     "@kinetix/v3-sdk": "^1.0.0",
-    "@openzeppelin/contracts": "4.7.0",
-    "@uniswap/v2-core": "1.0.1"
+    "@openzeppelin/contracts": "4.7.0"
   },
   "devDependencies": {
     "@nomicfoundation/hardhat-chai-matchers": "1.0.4",

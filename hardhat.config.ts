@@ -68,6 +68,13 @@ export default {
     baseGoerli: {
       url: `https://goerli.base.org`,
     },
+    kava: {
+      url: 'https://evm.kava.io',
+      // gasPrice: 3300000000,
+      chainId: 2222,
+      timeout: 1000000,
+      //allowUnlimitedContractSize: true,
+    },
   },
   namedAccounts: {
     deployer: 0,
